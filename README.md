@@ -14,3 +14,16 @@ SmartHome se presenta como una novedad en el campo de los hogares conectados, co
 4. Hacer un sistema de avisos que te diga si estás usando mucha energía y cómo puedes usarla de manera más eficiente. 
 5. Asegurarnos de que tu información esté segura y que todo funcione como debe.
 
+# Virtualenv
+```bash
+pip install virtualenv
+virtualenv myenv
+```
+### Activate
+```bash
+source myenv/bin/activate
+```
+### Deactivate
+```bash
+deactivate
+```
