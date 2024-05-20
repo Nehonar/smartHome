@@ -7,6 +7,7 @@ from utils import logger_color as log
 class Sidebar(ttk.Frame):
     def __init__(self, parent, *args, **kwargs):
         super().__init__(parent, *args, **kwargs, style="Sidebar.TFrame")
+        self.content_area = parent.content_area
         
         image_path = './smarthome/frontend/assets/images/smarthome_logo.jpeg'
         logo_image = Image.open(image_path)
